@@ -1,0 +1,64 @@
+<com.ncu.tianyan.ArcMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yanbin="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/arc_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-450dp"
+    yanbin:position="right_top"
+    yanbin:radius="200dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/composer_button" >
+
+        <ImageView
+            android:id="@+id/id_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/composer_icn_plus" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/arc_myLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5c3317"
+        android:text="@string/share_loc"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/arc_locateOpposite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5c3317"
+        android:text="@string/loc_car"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/arc_searchByLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5c3317"
+        android:text="@string/search_ll"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/arc_searchByCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5c3317"
+        android:text="@string/search_add"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/arc_locateDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:text="@string/loc_driver"
+        android:textColor="#ffffff" />
+
+</com.ncu.tianyan.ArcMenu><!-- From: file:/F:/workspace5/TianYan/res/layout/menu_right_top.xml -->

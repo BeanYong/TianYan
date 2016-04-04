@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/id_ll_weight"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/weight"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/id_et_weight"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/hint_weight"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/time"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/id_et_time"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/hint_time"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_alcoholCount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/alcohol_count"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/id_et_alcoholCount"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/hint_alcohol_count"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_alcoholConcentration"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/alcohol_concentration"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/id_et_alcoholConcentration"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/hint_alcohol_concentration"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/id_tv_checkFromSenser"
+            android:layout_width="match_parent"
+            android:background="#eee"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="吹气检测"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

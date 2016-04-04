@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/workspace5/TianYan/res/values/attr.xml -->
+    <eat-comment/>
+    <attr name="position">
+        <enum name="left_top" value="0"/>
+        <enum name="left_bottom" value="1"/>
+        <enum name="right_top" value="2"/>
+        <enum name="right_bottom" value="3"/>
+    </attr>
+    <attr format="dimension" name="radius"/>
+    <attr format="dimension" name="right_margin"/>
+    <!-- From: file:/F:/workspace5/TianYan/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="blue">#0000ff</color>
+    <color name="green">#00ff00</color>
+    <color name="red">#ff0000</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="ArcMenu"><attr name="position"/><attr name="radius"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="right_margin"/></declare-styleable>
+    <!-- From: file:/F:/workspace5/TianYan/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/F:/workspace5/TianYan/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="alcohol_concentration">酒精浓度</string>
+    <string name="alcohol_count">饮酒的数量</string>
+    <string name="app_name">醉翁禁驾</string>
+    <string name="cancel">取消</string>
+    <string name="check">饮酒后查询</string>
+    <string name="find_driver">寻找代驾</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_alcohol_concentration">所饮酒的酒精浓度（度）</string>
+    <string name="hint_alcohol_count">饮酒毫升数（ml）</string>
+    <string name="hint_lastTime">饮酒的持续时间</string>
+    <string name="hint_time">距离开始饮酒时间（h）</string>
+    <string name="hint_weight">饮酒者的体重（kg）</string>
+    <string name="input_add">请输入城市及目的地址</string>
+    <string name="input_ll">请输入纬度和经度</string>
+    <string name="lastTime">饮酒持续时间</string>
+    <string name="loc_car">定位爱车</string>
+    <string name="loc_driver">定位酒驾司机</string>
+    <string name="search_add">地名搜索</string>
+    <string name="search_ll">经纬度搜索</string>
+    <string name="share_loc">位置共享</string>
+    <string name="sign">天眼，为您的生命保驾护航！</string>
+    <string name="sure">确定</string>
+    <string name="time">饮酒开始时间距此时的小时数</string>
+    <string name="tip">天眼提示</string>
+    <string name="weight">体重</string>
+    <!-- From: file:/F:/workspace5/TianYan/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

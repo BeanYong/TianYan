@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\workspace5\TianYan\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="7214ffe71cffc50e5c23653be9c762b15c351f74">
+        <dex dex="F:\workspace5\TianYan\build\intermediates\pre-dexed\debug\BaiduLBS_Android-ea0feed1f1049ca595170e76444c925716da4926.jar" />
+    </item>
+    <item
+        jar="F:\workspace5\TianYan\libs\android_api_1.1_forsdk.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="610ab8a4952cfec5cc008a697790e21dec7b8d3a">
+        <dex dex="F:\workspace5\TianYan\build\intermediates\pre-dexed\debug\android_api_1.1_forsdk-58ce6106c01b99961d6a92cc69826e5e9a7a3157.jar" />
+    </item>
+    <item
+        jar="F:\workspace5\TianYan\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7214ffe71cffc50e5c23653be9c762b15c351f74">
+        <dex dex="F:\workspace5\TianYan\build\intermediates\pre-dexed\debug\BaiduLBS_Android-ea0feed1f1049ca595170e76444c925716da4926.jar" />
+    </item>
+    <item
+        jar="F:\workspace5\TianYan\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="F:\workspace5\TianYan\build\intermediates\pre-dexed\debug\android-support-v4-045ea308ea7678e968a5c8c9eae4c581342e49b8.jar" />
+    </item>
+    <item
+        jar="F:\workspace5\TianYan\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="F:\workspace5\TianYan\build\intermediates\pre-dexed\debug\android-support-v4-045ea308ea7678e968a5c8c9eae4c581342e49b8.jar" />
+    </item>
+    <item
+        jar="F:\workspace5\TianYan\libs\android_api_1.1_forsdk.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="610ab8a4952cfec5cc008a697790e21dec7b8d3a">
+        <dex dex="F:\workspace5\TianYan\build\intermediates\pre-dexed\debug\android_api_1.1_forsdk-58ce6106c01b99961d6a92cc69826e5e9a7a3157.jar" />
+    </item>
+
+</items>

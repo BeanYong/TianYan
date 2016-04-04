@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android_api_1.1_forsdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/android_api_1.1_forsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
